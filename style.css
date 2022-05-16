@@ -7,16 +7,42 @@
     border-radius: 15px;
     background-color: grey;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+    
 }
 
-#display {
+#infinity-quote {
+    width: 35%;
+    height: auto;
+    margin: 50px auto;
+    border-radius: 15px;
+    display: none;
+}
+
+#refresh {
+    width: 10%;
+    margin: 0 auto;
+    display: none;
+}
+
+#refresh:hover {
+    cursor: pointer;
+}
+
+.display-container {
     background-color: white;
     border-radius: 15px;
     text-align: right;
     border: 1px solid black;
     font-size: 40px;
     padding: 10px;
-    height: 50px;
+    min-height: 80px;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+#running-total {
+    font-size: 25px;
 }
 
 .remove-buttons {

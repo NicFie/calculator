@@ -10,7 +10,11 @@
 </head>
 <body>
     <div id="calculator-container">
-        <div id="display">0</div>
+        <div class="display-container">
+            <div id="running-total">0</div>
+            <div id="display">0</div>
+        </div>
+        
         <div class="remove-buttons">
             <div class="remove-button  button" id="clear-button">CLEAR</div>
             <div class="remove-button  button" id="backspace-button">&#8592</div>
@@ -28,11 +32,15 @@
             <div class="number-operator-button numbers button">2</div>
             <div class="number-operator-button numbers button">3</div>
             <div class="number-operator-button operators button" id="subtraction">&#8722</div>
-            <div class="number-operator-button operators button">.</div>
+            <div class="number-operator-button operators decimal button">.</div>
             <div class="number-operator-button numbers button">0</div>
             <div class="number-operator-button operators button" id="equals">&#61</div>
             <div class="number-operator-button operators button" id="addition">&#43</div>
         </div>
+    </div>
+    <div>
+        <img id="infinity-quote" src="https://i.pinimg.com/originals/a7/94/9a/a7949a6e874f00162793467e2255d967.jpg" alt="albert-einstein">
+        <button id="refresh" onclick="location.reload()">Back to calculator</button>
     </div>
     <script src="script.js"></script>
 </body>
