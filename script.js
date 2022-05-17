@@ -22,6 +22,7 @@ const equalsButton = document.querySelector('#equals');
 const clearButton = document.querySelector('#clear-button');
 const backspaceButton = document.querySelector('#backspace-button');
 
+
 decimalButton.addEventListener('click', addDecimalPointToDisplay);
 equalsButton.addEventListener('click', getEqualsOperatorResult);
 clearButton.addEventListener('click', clear);
@@ -32,6 +33,7 @@ multiplicationButton.addEventListener('click', getMultiplicationOperatorResult);
 divisionButton.addEventListener('click', getDivisionOperatorResult);
 equalsButton.addEventListener('click', getEqualsOperatorResult);
 window.addEventListener('keydown', getKeyboardInput);
+
 
 function getKeyboardInput(e) {
     if (e.key >= 0 && e.key <= 9) {
