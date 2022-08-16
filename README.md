@@ -1,5 +1,7 @@
 # calculator
 
+https://nicfie.github.io/calculator/
+
 This is the final project in Odin Project Foundations. I will be making a calculator with the following requirements :
 
 1. functions for basic operators (add, subtract, multiply, divide). 
