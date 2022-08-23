@@ -13,3 +13,5 @@ This is the final project in Odin Project Foundations. I will be making a calcul
 7. add a 'backspace' button. 
 8. add a '.' button. 
 9. add keyboard support. 
+
+Will refactor Javascript code after Le Wagon course, as I've realised it is pretty messy!
